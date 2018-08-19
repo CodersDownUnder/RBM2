@@ -1,0 +1,12 @@
+itemGroup.RBM2WoodTab=RBM2 Wood
+itemGroup.RBM2StoneTab=RBM2 Stone
+itemGroup.RBM2ItemTab=RBM2 Items
+
+
+
+item.ironupgrade.name= Iron-Upgrade(Not Useable)
+item.goldupgrade.name= Gold-Upgrade(Not Useable)
+item.diamondupgrade.name= Diamond-Upgrade(Not Useable)
+item.emeraldupgrade.name= Emerald-Upgrade(Not Useable)
+item.obsidianupgrade.name= Obsidian-Upgrade(Not Useable)
+item.bedrockupgrade.name= Bedrock-Upgrade(Not Useable)

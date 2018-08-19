@@ -2,6 +2,7 @@ package trhod177.rbm2;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
@@ -13,15 +14,21 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import trhod177.rbm2.creativetabs.RBM2CreativeTabItems;
+import trhod177.rbm2.creativetabs.RBM2CreativeTabStone;
+import trhod177.rbm2.creativetabs.RBM2CreativeTabWood;
+import trhod177.rbm2.init.BlockInit;
+import trhod177.rbm2.init.ItemInit;
 import trhod177.rbm2.proxy.CommonProxy;
 
 @Mod(modid = References.MODID, name = References.NAME, version = References.VERSION)
 public class ReinforcedBlocksMod2 {
 	
 	 
-		//public static final CreativeTabs reinforcedblocksmodtab = new ReinforcedBlocksModTab("BlockInit.reinforced_oak_planks");
-		//public static final CreativeTabs reinforcedblocksmodtab2 = new ReinforcedBlocksModTab2("BlockInit.reinforced_oak_planks_strutless");
-		//public static final CreativeTabs reinforcedblocksmoditemtab = new ReinforcedBlocksModItemTab("ItemInit.ObsidianReinforcement");
+		public static final CreativeTabs RBM2WoodTab = new RBM2CreativeTabWood("BlockInit.ironoakplanks");
+		public static final CreativeTabs RBM2StoneTab = new RBM2CreativeTabStone("BlockInit.ironstone");
+		public static final CreativeTabs RBM2ItemTab = new RBM2CreativeTabItems("ItemInit.ironupgrade");
+		
 		
 		@SidedProxy(clientSide = References.CLIENTPROXY, serverSide = References.COMMONPROXY)
 		public static CommonProxy proxy;
@@ -34,27 +41,27 @@ public class ReinforcedBlocksMod2 {
 
 			@SubscribeEvent
 			public static void registerBlocks(RegistryEvent.Register<Block> event) {
-				//BlockInit.register(event.getRegistry());
+				BlockInit.register(event.getRegistry());
 			}
 			
 
 			@SubscribeEvent
 			public static void registerItems(RegistryEvent.Register<Item> event) {
-				//ItemInit.register(event.getRegistry());
-				//BlockInit.registerItemBlocks(event.getRegistry());
+				ItemInit.register(event.getRegistry());
+				BlockInit.registerItemBlocks(event.getRegistry());
 				
 			}
 			
 			@SubscribeEvent
 			public static void registerModels(ModelRegistryEvent event) {
-				//ItemInit.registerModels();
-				//BlockInit.registerModels();
+				ItemInit.registerModels();
+				BlockInit.registerModels();
 				
 			}
 			
 			@SubscribeEvent
 			public static void registerItems(ModelRegistryEvent event) {
-				//ItemInit.registerModels();
+				ItemInit.registerModels();
 			}
 			
 			
@@ -74,8 +81,7 @@ public class ReinforcedBlocksMod2 {
 		@EventHandler
 		public static void preInit(FMLPreInitializationEvent event) {
 			proxy.preInit(event);
-			//BlockInit.init();
-			//BlockInit.register(); 
+			
 
 		}
 		

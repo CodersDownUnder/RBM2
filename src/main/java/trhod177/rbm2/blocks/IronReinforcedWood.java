@@ -10,7 +10,7 @@ public class IronReinforcedWood extends CustomBlocks {
 		super(Material.WOOD, name);
 		setHardness(5f);
 		setResistance(60f);
-		this.setHarvestLevel("pickaxe", 2);
+		this.setHarvestLevel("axe", 2);
 		
 		
 	}

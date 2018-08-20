@@ -11,7 +11,9 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.registries.IForgeRegistry;
 import trhod177.rbm2.References;
+import trhod177.rbm2.blocks.IronReinforcedNetherrack;
 import trhod177.rbm2.blocks.IronReinforcedStone;
+import trhod177.rbm2.blocks.IronReinforcedTerracotta;
 import trhod177.rbm2.blocks.IronReinforcedWood;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
@@ -24,6 +26,7 @@ public class BlockInit {
     //public static IronReinforcedStone iron = new IronReinforcedStone("iron").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	//public static blockclass blockname = new blockclass("blockname").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	
+	//Iron Reinforced Blocks
 	public static IronReinforcedWood ironoakplanks = new IronReinforcedWood("ironoakplanks").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	public static IronReinforcedWood ironbirchplanks = new IronReinforcedWood("ironbirchplanks").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	public static IronReinforcedWood ironspruceplanks = new IronReinforcedWood("ironspruceplanks").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
@@ -44,7 +47,7 @@ public class BlockInit {
 	public static IronReinforcedStone ironendstone = new IronReinforcedStone("ironendstone").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	public static IronReinforcedStone ironendstonebrick = new IronReinforcedStone("ironendstonebrick").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	public static IronReinforcedStone ironnetherbrick = new IronReinforcedStone("ironnetherbrick").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
-	public static IronReinforcedStone ironnetherrack = new IronReinforcedStone("ironnetherrack").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedNetherrack ironnetherrack = new IronReinforcedNetherrack("ironnetherrack").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	public static IronReinforcedStone ironpurpur = new IronReinforcedStone("ironpurpur").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	public static IronReinforcedStone ironpurpurpillar = new IronReinforcedStone("ironpurpurpillar").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	public static IronReinforcedStone ironquartzblock = new IronReinforcedStone("ironquartzblock").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
@@ -57,11 +60,44 @@ public class BlockInit {
 	public static IronReinforcedStone ironstonebrickcracked = new IronReinforcedStone("ironstonebrickcracked").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	public static IronReinforcedStone ironstonebrickmossy = new IronReinforcedStone("ironstonebrickmossy").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	public static IronReinforcedStone ironstonebrickchiseled = new IronReinforcedStone("ironstonebrickchiseled").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracotta = new IronReinforcedTerracotta("ironterracotta").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottawhite = new IronReinforcedTerracotta("ironterracottawhite").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottaorange = new IronReinforcedTerracotta("ironterracottaorange").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottamagenta = new IronReinforcedTerracotta("ironterracottamagenta").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottalightblue = new IronReinforcedTerracotta("ironterracottalightblue").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottayellow = new IronReinforcedTerracotta("ironterracottayellow").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottalime = new IronReinforcedTerracotta("ironterracottalime").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottapink = new IronReinforcedTerracotta("ironterracottapink").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottagray = new IronReinforcedTerracotta("ironterracottagray").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottalightgray = new IronReinforcedTerracotta("ironterracottalightgray").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottacyan = new IronReinforcedTerracotta("ironterracottacyan").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottapurple = new IronReinforcedTerracotta("ironterracottapurple").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottablue = new IronReinforcedTerracotta("ironterracottablue").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottabrown = new IronReinforcedTerracotta("ironterracottabrown").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottagreen = new IronReinforcedTerracotta("ironterracottagreen").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottared = new IronReinforcedTerracotta("ironterracottared").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static IronReinforcedTerracotta ironterracottablack = new IronReinforcedTerracotta("ironterracottablack").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	
 	public static void register(IForgeRegistry<Block> registry) {
 		registry.registerAll(
 				//blockname
-				
+				ironterracotta,
+				ironterracottawhite,
+				ironterracottaorange,
+				ironterracottamagenta,
+				ironterracottalightblue,
+				ironterracottayellow,
+				ironterracottalime,
+				ironterracottapink,
+				ironterracottagray,
+				ironterracottalightgray,
+				ironterracottacyan,
+				ironterracottapurple,
+				ironterracottablue,
+				ironterracottabrown,
+				ironterracottagreen,
+				ironterracottared,
+				ironterracottablack,
 	            ironoakplanks,
 	            ironbirchplanks,
 	            ironspruceplanks,
@@ -136,7 +172,24 @@ public class BlockInit {
 		          ironstonebrick.createItemBlock(),
 		          ironstonebrickcracked.createItemBlock(),
 		          ironstonebrickmossy.createItemBlock(),
-		          ironstonebrickchiseled.createItemBlock()
+		          ironstonebrickchiseled.createItemBlock(),
+		          ironterracotta.createItemBlock(),
+				  ironterracottawhite.createItemBlock(),
+				  ironterracottaorange.createItemBlock(),
+				  ironterracottamagenta.createItemBlock(),
+				  ironterracottalightblue.createItemBlock(),
+			      ironterracottayellow.createItemBlock(),
+				  ironterracottalime.createItemBlock(),
+				  ironterracottapink.createItemBlock(),
+				  ironterracottagray.createItemBlock(),
+			      ironterracottalightgray.createItemBlock(),
+				  ironterracottacyan.createItemBlock(),
+				  ironterracottapurple.createItemBlock(),
+				  ironterracottablue.createItemBlock(),
+				  ironterracottabrown.createItemBlock(),
+				  ironterracottagreen.createItemBlock(),
+				  ironterracottared.createItemBlock(),
+			      ironterracottablack.createItemBlock()
 				
 				
 				
@@ -182,6 +235,23 @@ public class BlockInit {
       	  ironstonebrickcracked.registerItemModel(Item.getItemFromBlock(ironstonebrickcracked));
       	  ironstonebrickmossy.registerItemModel(Item.getItemFromBlock(ironstonebrickmossy));
       	  ironstonebrickchiseled.registerItemModel(Item.getItemFromBlock(ironstonebrickchiseled));
+      	  ironterracotta.registerItemModel(Item.getItemFromBlock(ironterracotta));
+		  ironterracottawhite.registerItemModel(Item.getItemFromBlock(ironterracottawhite));
+		  ironterracottaorange.registerItemModel(Item.getItemFromBlock(ironterracottaorange));
+		  ironterracottamagenta.registerItemModel(Item.getItemFromBlock(ironterracottamagenta));
+		  ironterracottalightblue.registerItemModel(Item.getItemFromBlock(ironterracottalightblue));
+		  ironterracottayellow.registerItemModel(Item.getItemFromBlock(ironterracottayellow));
+		  ironterracottalime.registerItemModel(Item.getItemFromBlock(ironterracottalime));
+		  ironterracottapink.registerItemModel(Item.getItemFromBlock(ironterracottapink));
+		  ironterracottagray.registerItemModel(Item.getItemFromBlock(ironterracottagray));
+		  ironterracottalightgray.registerItemModel(Item.getItemFromBlock(ironterracottalightgray));
+		  ironterracottacyan.registerItemModel(Item.getItemFromBlock(ironterracottacyan));
+		  ironterracottapurple.registerItemModel(Item.getItemFromBlock(ironterracottapurple));
+		  ironterracottablue.registerItemModel(Item.getItemFromBlock(ironterracottablue));
+		  ironterracottabrown.registerItemModel(Item.getItemFromBlock(ironterracottabrown));
+		  ironterracottagreen.registerItemModel(Item.getItemFromBlock(ironterracottagreen));
+		  ironterracottared.registerItemModel(Item.getItemFromBlock(ironterracottared));
+		  ironterracottablack.registerItemModel(Item.getItemFromBlock(ironterracottablack));
 	
 		
 		

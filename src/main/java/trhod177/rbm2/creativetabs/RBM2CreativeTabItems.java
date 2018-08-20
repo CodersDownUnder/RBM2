@@ -11,14 +11,10 @@ public class RBM2CreativeTabItems extends CreativeTabs {
 
 	public RBM2CreativeTabItems(String label) {
 		super("RBM2ItemTab");
-		this.setBackgroundImageName("tabsearch.png");
+		this.setBackgroundImageName("rbmt.png");
 		
 	}
 	
-	@Override
-	public boolean hasSearchBar() {
-		return true;
-	}
 	
 	public ItemStack getTabIconItem() {
 		return new ItemStack(ItemInit.ironupgrade);

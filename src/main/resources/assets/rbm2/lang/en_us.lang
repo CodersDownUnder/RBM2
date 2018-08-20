@@ -1,12 +1,49 @@
 itemGroup.RBM2WoodTab=RBM2 Wood
 itemGroup.RBM2StoneTab=RBM2 Stone
 itemGroup.RBM2ItemTab=RBM2 Items
+itemGroup.RBM2TerracottaTab=RBM2 Terracotta
 
 
+item.ironupgrade.name= §7Iron-Upgrade(Not Useable)
+item.goldupgrade.name= §6Gold-Upgrade(Not Useable)
+item.diamondupgrade.name= §bDiamond-Upgrade(Not Useable)
+item.emeraldupgrade.name= §2Emerald-Upgrade(Not Useable)
+item.obsidianupgrade.name= §3Obsidian-Upgrade(Not Useable)
+item.bedrockupgrade.name= §dtBedrock-Upgrade(Creative Only)
 
-item.ironupgrade.name= Iron-Upgrade(Not Useable)
-item.goldupgrade.name= Gold-Upgrade(Not Useable)
-item.diamondupgrade.name= Diamond-Upgrade(Not Useable)
-item.emeraldupgrade.name= Emerald-Upgrade(Not Useable)
-item.obsidianupgrade.name= Obsidian-Upgrade(Not Useable)
-item.bedrockupgrade.name= Bedrock-Upgrade(Not Useable)
+
+tile.ironoakplanks.name= Iron Reinforced Oak Planks
+tile.ironbirchplanks.name= Iron Reinforced Birch Planks
+tile.ironspruceplanks.name= Iron Reinforced Spruce Planks
+tile.ironjungleplanks.name= Iron Reinforced Jungle Planks
+tile.ironacaciaplanks.name= Iron Reinforced Acacia Planks
+tile.irondarkoakplanks.name= Iron Reinforced Dark Oak Planks
+
+tile.ironstone.name=Iron Reinforced Stone
+tile.ironandesite.name=Iron Reinforced Andesite
+tile.irongranite.name=Iron Reinforced Granite
+tile.irondorite.name=Iron Reinforced Diorite
+tile.ironpolisheddorite.name=Iron Reinforced Polished Diorite
+tile.ironpolishedgranite.name=Iron Reinforced Polished Granite
+tile.ironpolishedandesite.name=Iron Reinforced Polished Andesite
+tile.ironcobble.name=Iron Reinforced Cobblestone
+tile.ironmossycobble.name=Iron Reinforced Moss Stone
+tile.ironsandstone.name=Iron Reinforced Sandstone
+tile.ironbricks.name=Iron Reinforced Bricks
+tile.ironendstone.name=Iron Reinforced End Stone
+tile.ironendstonebrick.name=Iron Reinforced End Stone Bricks
+tile.ironnetherbrick.name=Iron Reinforced Nether Brick
+tile.ironnetherrack.name=Iron Reinforced Netherrack
+tile.ironpurpur.name=Iron Reinforced Purpur
+tile.ironpurpurpillar.name=Iron Reinforced Purpur Pillar
+tile.ironquartzblock.name=Iron Reinforced Block Of Quartz
+tile.ironsandstonechisled.name=Iron Reinforced Chiseled Sandstone
+tile.ironsandstonesmooth.name=Iron Reinforced Smooth Sandstone
+tile.ironredsandstonechisled.name=Iron Reinforced Chiseled Red Sandstone 
+tile.ironredsandstonesmooth.name=Iron Reinforced Smooth Red Sandstobe 
+tile.ironredsandstone.name=Iron Reinforced Red Sandstone
+tile.ironstonebrick.name=Iron Reinforced Stone Bricks
+tile.ironstonebrickcracked.name=Iron Reinforced Cracked Stone Bricks
+tile.ironstonebrickmossy.name=Iron Reinforced Mossy Stone Bricks
+tile.ironstonebrickchiseled.name=Iron Reinforced Chiseled Stone Bricks
+

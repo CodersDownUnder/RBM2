@@ -14,7 +14,7 @@ public class IronReinforcedNetherrack extends CustomBlocks {
 	public IronReinforcedNetherrack(String name) {
 		super(Material.ROCK, name);
 		setHardness(5f);
-		setResistance(60f);
+		setResistance(40f);
 		this.setHarvestLevel("pickaxe", 2);
         
 		
@@ -24,7 +24,7 @@ public class IronReinforcedNetherrack extends CustomBlocks {
 	
 	@Override
 	public IronReinforcedNetherrack setCreativeTab(CreativeTabs tab) {
-		super.setCreativeTab(ReinforcedBlocksMod2.RBM2TerracottaTab);
+		super.setCreativeTab(ReinforcedBlocksMod2.RBM2StoneTab);
 		return this;
 	}
 	
@@ -33,8 +33,6 @@ public class IronReinforcedNetherrack extends CustomBlocks {
         if (side != EnumFacing.UP)
             return false;
         if (this == BlockInit.ironnetherrack)
-            return true;
-        if ((world.provider instanceof net.minecraft.world.WorldProviderEnd) && this == Blocks.BEDROCK)
             return true;
         return false;
     }

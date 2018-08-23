@@ -21,6 +21,7 @@ import trhod177.rbm2.creativetabs.RBM2CreativeTabTerracotta;
 import trhod177.rbm2.creativetabs.RBM2CreativeTabWood;
 import trhod177.rbm2.handlers.RBM2RecipeHandler;
 import trhod177.rbm2.init.BlockInit;
+import trhod177.rbm2.init.BlockInit2;
 import trhod177.rbm2.init.ItemInit;
 import trhod177.rbm2.proxy.CommonProxy;
 
@@ -47,6 +48,7 @@ public class ReinforcedBlocksMod2 {
 			@SubscribeEvent
 			public static void registerBlocks(RegistryEvent.Register<Block> event) {
 				BlockInit.register(event.getRegistry());
+				
 			}
 			
 

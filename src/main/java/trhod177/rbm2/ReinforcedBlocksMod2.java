@@ -16,12 +16,12 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import trhod177.rbm2.creativetabs.RBM2CreativeTabItems;
+import trhod177.rbm2.creativetabs.RBM2CreativeTabMisc;
 import trhod177.rbm2.creativetabs.RBM2CreativeTabStone;
 import trhod177.rbm2.creativetabs.RBM2CreativeTabTerracotta;
 import trhod177.rbm2.creativetabs.RBM2CreativeTabWood;
 import trhod177.rbm2.handlers.RBM2RecipeHandler;
 import trhod177.rbm2.init.BlockInit;
-import trhod177.rbm2.init.BlockInit2;
 import trhod177.rbm2.init.ItemInit;
 import trhod177.rbm2.proxy.CommonProxy;
 
@@ -33,7 +33,7 @@ public class ReinforcedBlocksMod2 {
 		public static final CreativeTabs RBM2StoneTab = new RBM2CreativeTabStone("BlockInit.ironstone");
 		public static final CreativeTabs RBM2ItemTab = new RBM2CreativeTabItems("ItemInit.ironupgrade");
 		public static final CreativeTabs RBM2TerracottaTab = new RBM2CreativeTabTerracotta("BlockInit.ironterracotta");
-		
+		public static final CreativeTabs RBM2MiscTab = new RBM2CreativeTabMisc("blockinit.reinforcedironblock");
 		
 		
 		@SidedProxy(clientSide = References.CLIENTPROXY, serverSide = References.COMMONPROXY)

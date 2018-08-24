@@ -5,7 +5,11 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 import trhod177.rbm2.ReinforcedBlocksMod2;
+import trhod177.rbm2.init.BlockInit;
 
 
 public class CustomBlocks extends Block {

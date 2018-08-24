@@ -18,7 +18,7 @@ Steps to reproduce the behavior:
 If applicable, add screenshots to help explain your problem.
 
 **Mod Version (please complete the following information):**
- - Version [e.g. 22]
+ -RBM2 Version X.X.X
 
 **Additional context**
 Add any other context about the problem here.

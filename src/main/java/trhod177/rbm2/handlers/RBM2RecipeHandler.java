@@ -21,11 +21,11 @@ public class RBM2RecipeHandler {
 	
 	public static void registerCraftingItems() {
 		
-		RBM2CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.ironupgrade,8), new Object[] {"III","I I","III", 'I', Items.IRON_INGOT});
-		RBM2CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.goldupgrade,8), new Object[] {"GGG","G G","GGG", 'G', Items.GOLD_INGOT});
-		RBM2CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.diamondupgrade,8), new Object[] {"DDD","D D","DDD", 'D', Items.DIAMOND});
-		RBM2CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.emeraldupgrade,8), new Object[] {"EEE","E E","EEE", 'E', Items.EMERALD});
-		RBM2CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.obsidianupgrade,8), new Object[] {"OOO","O O","OOO", 'O', Blocks.OBSIDIAN});
+		RBM2CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.ironupgrade,8), new Object[] {"III","IUI","III", 'I', Items.IRON_INGOT, 'U', ItemInit.upgradebase});
+		RBM2CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.goldupgrade,8), new Object[] {"GGG","GUG","GGG", 'G', Items.GOLD_INGOT, 'U', ItemInit.upgradebase});
+		RBM2CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.diamondupgrade,8), new Object[] {"DDD","DUD","DDD", 'D', Items.DIAMOND, 'U', ItemInit.upgradebase});
+		RBM2CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.emeraldupgrade,8), new Object[] {"EEE","EUE","EEE", 'E', Items.EMERALD, 'U', ItemInit.upgradebase});
+		RBM2CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.obsidianupgrade,8), new Object[] {"OOO","OUO","OOO", 'O', Blocks.OBSIDIAN, 'U', ItemInit.upgradebase});
 		
 	}
 	

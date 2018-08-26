@@ -14,8 +14,8 @@ public class IronReinforcedNetherrack extends CustomBlocks {
 	public IronReinforcedNetherrack(String name) {
 		super(Material.ROCK, name);
 		setHardness(5f);
-		setResistance(40f);
-		this.setHarvestLevel("pickaxe", 2);
+		setResistance(30f);
+		this.setHarvestLevel("pickaxe", 1);
         
 		
 	}

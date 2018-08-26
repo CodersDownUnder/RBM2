@@ -8,9 +8,9 @@ public class ObsidianReinforcedTerracotta extends CustomBlocks {
 
 	public ObsidianReinforcedTerracotta(String name) {
 		super(Material.ROCK, name);
-		setHardness(3f);
-		setResistance(20f);
-		this.setHarvestLevel("pickaxe", 2);
+		setHardness(35f);
+		setResistance(6000f);
+		this.setHarvestLevel("pickaxe", 3);
 		
 		
 	}

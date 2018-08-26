@@ -13,8 +13,8 @@ public class DiamondReinforcedNetherrack extends CustomBlocks {
 
 	public DiamondReinforcedNetherrack(String name) {
 		super(Material.ROCK, name);
-		setHardness(3f);
-		setResistance(20f);
+		setHardness(5f);
+		setResistance(40f);
 		this.setHarvestLevel("pickaxe", 2);
         
 		

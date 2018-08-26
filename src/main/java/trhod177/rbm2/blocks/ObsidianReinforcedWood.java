@@ -8,9 +8,9 @@ public class ObsidianReinforcedWood extends CustomBlocks {
 
 	public ObsidianReinforcedWood(String name) {
 		super(Material.WOOD, name);
-		setHardness(3f);
-		setResistance(20f);
-		this.setHarvestLevel("axe", 2);
+		setHardness(35f);
+		setResistance(6000f);
+		this.setHarvestLevel("axe", 3);
 		
 		
 	}

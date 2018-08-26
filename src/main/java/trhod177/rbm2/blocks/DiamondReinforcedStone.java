@@ -8,8 +8,8 @@ public class DiamondReinforcedStone extends CustomBlocks {
 
 	public DiamondReinforcedStone(String name) {
 		super(Material.ROCK, name);
-		setHardness(3f);
-		setResistance(20f);
+		setHardness(5f);
+		setResistance(40f);
 		this.setHarvestLevel("pickaxe", 2);
 		
 		

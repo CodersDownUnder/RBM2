@@ -9,8 +9,8 @@ public class IronReinforcedStone extends CustomBlocks {
 	public IronReinforcedStone(String name) {
 		super(Material.ROCK, name);
 		setHardness(5f);
-		setResistance(40f);
-		this.setHarvestLevel("pickaxe", 2);
+		setResistance(30f);
+		this.setHarvestLevel("pickaxe", 1);
 		
 		
 	}

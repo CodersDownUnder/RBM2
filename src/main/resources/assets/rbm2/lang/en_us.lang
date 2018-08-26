@@ -4,14 +4,13 @@ itemGroup.RBM2ItemTab=RBM2 Items
 itemGroup.RBM2MiscTab=RBM2 Misc
 itemGroup.RBM2TerracottaTab=RBM2 Terracotta
 
-
+item.upgradebase.name= Upgrade-Base
 item.ironupgrade.name= §7Iron-Upgrade(Not Useable)
 item.goldupgrade.name= §6Gold-Upgrade(Not Useable)
 item.diamondupgrade.name= §bDiamond-Upgrade(Not Useable)
 item.emeraldupgrade.name= §2Emerald-Upgrade(Not Useable)
 item.obsidianupgrade.name= §3Obsidian-Upgrade(Not Useable)
 item.bedrockupgrade.name= §dBedrock-Upgrade(Creative Only)
-
 
 tile.ironoakplanks.name= Iron Reinforced Oak Planks
 tile.ironbirchplanks.name= Iron Reinforced Birch Planks
@@ -25,7 +24,6 @@ tile.goldspruceplanks.name= Gold Reinforced Spruce Planks
 tile.goldjungleplanks.name= Gold Reinforced Jungle Planks
 tile.goldacaciaplanks.name= Gold Reinforced Acacia Planks
 tile.golddarkoakplanks.name= Gold Reinforced Dark Oak Planks
-
 
 tile.ironstone.name=Iron Reinforced Stone
 tile.ironandesite.name=Iron Reinforced Andesite
@@ -272,9 +270,6 @@ tile.obsidianterracottabrown.name=Obsidian Reinforced Brown Terracotta
 tile.obsidianterracottagreen.name=Obsidian Reinforced Green Terracotta
 tile.obsidianterracottared.name=Obsidian Reinforced Red Terracotta
 tile.obsidianterracottablack.name=Obsidian Reinforced Black Terracotta
-
-
-
 
 tile.bedrockoakplanks.name= Bedrock Reinforced Oak Planks
 tile.bedrockbirchplanks.name= Bedrock Reinforced Birch Planks

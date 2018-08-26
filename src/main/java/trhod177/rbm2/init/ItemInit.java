@@ -10,12 +10,14 @@ import trhod177.rbm2.items.ItemEmeraldUpgrade;
 import trhod177.rbm2.items.ItemGoldUpgrade;
 import trhod177.rbm2.items.ItemIronUpgrade;
 import trhod177.rbm2.items.ItemObsidianUpgrade;
+import trhod177.rbm2.items.ItemUpgradeBase;
 
 
 public class ItemInit {
 	
 	//public static itemclass itemname = new itemclass("itemname").setCreativeTab(creativetab);
 	  
+	 public static ItemUpgradeBase upgradebase = new ItemUpgradeBase("upgradebase").setCreativeTab(ReinforcedBlocksMod2.RBM2ItemTab);
 	 public static ItemIronUpgrade ironupgrade = new ItemIronUpgrade("ironupgrade").setCreativeTab(ReinforcedBlocksMod2.RBM2ItemTab);
 	 public static ItemGoldUpgrade goldupgrade = new ItemGoldUpgrade("goldupgrade").setCreativeTab(ReinforcedBlocksMod2.RBM2ItemTab);
 	 public static ItemDiamondUpgrade diamondupgrade = new ItemDiamondUpgrade("diamondupgrade").setCreativeTab(ReinforcedBlocksMod2.RBM2ItemTab);
@@ -28,6 +30,7 @@ public class ItemInit {
 	public static void register(IForgeRegistry<Item> registry) {
 	  registry.registerAll(
           //itemname
+			upgradebase,
 			ironupgrade,
 	        goldupgrade,
 	        diamondupgrade,
@@ -43,7 +46,7 @@ public class ItemInit {
 	
 	public static void registerModels() {
 	    //itemname.registerItemModel();
-		
+		upgradebase.registerItemModel();
 		ironupgrade.registerItemModel();
 		goldupgrade.registerItemModel();
 	    diamondupgrade.registerItemModel();

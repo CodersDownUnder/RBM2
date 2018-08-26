@@ -9,8 +9,8 @@ public class IronReinforcedTerracotta extends CustomBlocks {
 	public IronReinforcedTerracotta(String name) {
 		super(Material.ROCK, name);
 		setHardness(5f);
-		setResistance(60f);
-		this.setHarvestLevel("pickaxe", 2);
+		setResistance(30f);
+		this.setHarvestLevel("pickaxe", 1);
 		
 		
 	}

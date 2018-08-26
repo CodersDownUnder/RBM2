@@ -8,8 +8,8 @@ public class ReinforcedIron extends CustomBlocks {
 
 	public ReinforcedIron(String name) {
 		super(Material.WOOD, name);
-		setHardness(3f);
-		setResistance(20f);
+		setHardness(5f);
+		setResistance(30f);
 		this.setHarvestLevel("axe", 2);
 		
 		

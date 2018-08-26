@@ -99,22 +99,14 @@ The User may distribute a Derivative if the following conditions are met:
  - The Derivative provides credit to the Author.
  - The Derivative complies with the Mod license.
 
-8. Right to Assets
---------
-Unless otherwise specified, Assets are considered a part of the Mod.  
-Unless otherwise specified, Assets are governed by the same rights as the Mod.  
-The Author may specify categorical exceptions to Asset licensing.  
-The Author may specify exact or Codebase path exceptions to Asset licensing.  
-The Author may include Assets licensed under different licenses.  
-
-9. Right to distribute addons
+8. Right to distribute addons
 --------
 
 The User may develop non-Derivative Addons.  
 An Addon may include the Mod API without being considered a Derivative.  
 The Addon may be distributed under a different license.  
 
-10. Right to create Modpack(s)
+9. Right to create Modpack(s)
 --------
 
 The User may create Modpack(s) which include the Mod.  
@@ -122,12 +114,12 @@ A Modpack Creator is granted the right to distribute the Mod as part of a Modpac
 
 Modpacks containing the Mod may not be used to generate revenue unless specifically granted this right by the Author.  
 
-11. Author responsibilities
+10. Author responsibilities
 --------
 
 The Author must make the Mod source freely and publicly available.  
 
-12. Author rights
+11. Author rights
 --------
 
 The Author may grant a User the status of Contributor or Author.  

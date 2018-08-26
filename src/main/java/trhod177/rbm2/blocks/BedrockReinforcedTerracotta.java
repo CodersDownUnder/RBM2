@@ -8,9 +8,9 @@ public class BedrockReinforcedTerracotta extends CustomBlocks {
 
 	public BedrockReinforcedTerracotta(String name) {
 		super(Material.ROCK, name);
-		setHardness(3f);
-		setResistance(20f);
-		this.setHarvestLevel("pickaxe", 2);
+		setHardness(-1f);
+		setResistance(18000000f);
+		
 		
 		
 	}

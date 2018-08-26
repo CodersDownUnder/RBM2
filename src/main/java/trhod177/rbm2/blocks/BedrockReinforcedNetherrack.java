@@ -13,10 +13,9 @@ public class BedrockReinforcedNetherrack extends CustomBlocks {
 
 	public BedrockReinforcedNetherrack(String name) {
 		super(Material.ROCK, name);
-		setHardness(3f);
-		setResistance(20f);
-		this.setHarvestLevel("pickaxe", 2);
-        
+		setHardness(-1f);
+		setResistance(18000000f);
+		
 		
 	}
 	

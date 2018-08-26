@@ -9,8 +9,8 @@ public class EmeraldReinforcedTerracotta extends CustomBlocks {
 	public EmeraldReinforcedTerracotta(String name) {
 		super(Material.ROCK, name);
 		setHardness(3f);
-		setResistance(20f);
-		this.setHarvestLevel("pickaxe", 2);
+		setResistance(50f);
+		this.setHarvestLevel("pickaxe", 3);
 		
 		
 	}

@@ -8,9 +8,9 @@ public class EmeraldReinforcedWood extends CustomBlocks {
 
 	public EmeraldReinforcedWood(String name) {
 		super(Material.WOOD, name);
-		setHardness(3f);
-		setResistance(20f);
-		this.setHarvestLevel("axe", 2);
+		setHardness(5f);
+		setResistance(50f);
+		this.setHarvestLevel("axe", 3);
 		
 		
 	}

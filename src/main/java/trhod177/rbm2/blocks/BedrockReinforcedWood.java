@@ -8,10 +8,9 @@ public class BedrockReinforcedWood extends CustomBlocks {
 
 	public BedrockReinforcedWood(String name) {
 		super(Material.WOOD, name);
-		setHardness(3f);
-		setResistance(20f);
-		this.setHarvestLevel("axe", 2);
-		
+		setHardness(-1f);
+		setResistance(18000000f);
+				
 		
 	}
 	

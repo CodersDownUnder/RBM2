@@ -5,7 +5,9 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.Explosion;
 import net.minecraft.world.World;
+import net.minecraftforge.event.world.ExplosionEvent;
 import trhod177.rbm2.ReinforcedBlocksMod2;
 import trhod177.rbm2.init.BlockInit;
 
@@ -33,6 +35,12 @@ public class DiamondReinforcedNetherrack extends CustomBlocks {
         if (this == BlockInit.diamondnetherrack)
             return true;
         return false;
+    }
+	
+	public void onBlockExploded(World world, BlockPos pos, Explosion explosion)
+    {
+        world.setBlockToAir(pos);
+        onBlockDestroyedByExplosion(world, pos, explosion);
     }
 
 }

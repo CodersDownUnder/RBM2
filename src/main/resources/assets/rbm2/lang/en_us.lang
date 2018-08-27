@@ -5,12 +5,12 @@ itemGroup.RBM2MiscTab=RBM2 Misc
 itemGroup.RBM2TerracottaTab=RBM2 Terracotta
 
 item.upgradebase.name= Upgrade-Base
-item.ironupgrade.name= §7Iron-Upgrade(Not Useable)
-item.goldupgrade.name= §6Gold-Upgrade(Not Useable)
-item.diamondupgrade.name= §bDiamond-Upgrade(Not Useable)
-item.emeraldupgrade.name= §2Emerald-Upgrade(Not Useable)
-item.obsidianupgrade.name= §3Obsidian-Upgrade(Not Useable)
-item.bedrockupgrade.name= §dBedrock-Upgrade(Creative Only)
+item.ironupgrade.name= §7Iron-Upgrade
+item.goldupgrade.name= §6Gold-Upgrade
+item.diamondupgrade.name= §bDiamond-Upgrade
+item.emeraldupgrade.name= §2Emerald-Upgrade
+item.obsidianupgrade.name= §3Obsidian-Upgrade
+item.bedrockupgrade.name= §dBedrock-Upgrade(Creative Only(Will/Might be removed))
 
 tile.ironoakplanks.name= Iron Reinforced Oak Planks
 tile.ironbirchplanks.name= Iron Reinforced Birch Planks

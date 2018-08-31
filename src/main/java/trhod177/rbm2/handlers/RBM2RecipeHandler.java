@@ -296,6 +296,8 @@ public class RBM2RecipeHandler {
 	   
 		
 	       
+	    //Reinforced Iron
+	    RBM2CraftingHandler.addShapedRecipe(new ItemStack(BlockInit.reinforcedironblock, 4), new Object[] {"III","IBI","III", 'I', Items.IRON_INGOT, 'B', Blocks.IRON_BLOCK});
 	    
 	}
 	public static void registerCraftingItems() {
@@ -306,6 +308,8 @@ public class RBM2RecipeHandler {
 		RBM2CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.diamondupgrade,8), new Object[] {" D ","DUD"," D ", 'D', Items.DIAMOND, 'U', ItemInit.upgradebase});
 		RBM2CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.emeraldupgrade,8), new Object[] {" E ","EUE"," E ", 'E', Items.EMERALD, 'U', ItemInit.upgradebase});
 		RBM2CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.obsidianupgrade,8), new Object[] {"OOO","OUO","OOO", 'O', Blocks.OBSIDIAN, 'U', ItemInit.upgradebase});
+		
+		
 		
 	}
 	

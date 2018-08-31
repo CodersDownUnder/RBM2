@@ -293,8 +293,7 @@ public class RBM2RecipeHandler {
 	    RBM2CraftingHandler.addShapedRecipe(new ItemStack(BlockInit.obsidianterracottablack, 8), new Object[] {"AAA","AUA","AAA", 'A', new ItemStack(Blocks.STAINED_HARDENED_CLAY,15), 'U', ItemInit.obsidianupgrade});
 	    
 		
-	    //Reinforced Iron
-            RBM2CraftingHandler.addShapedRecipe(new ItemStack(BlockInit.reinforcedironblock, 8), new Object[] ("III","IBI","III", 'I', Items.IRON_INGOT
+	   
 		
 	       
 	    
